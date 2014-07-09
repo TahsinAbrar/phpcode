@@ -1,9 +1,10 @@
 <?php
-	$start=	1;
-	$end=10;
+	$start=	10;
+	$end=2200;
 	$sum=0;
-	for($start; $start<=$end; $start++){
+	while($start<=$end){
 	 $sum=$sum+$start;
+	 $start++;
 	}
 	echo $sum;
 ?>
