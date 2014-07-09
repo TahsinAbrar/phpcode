@@ -36,4 +36,10 @@ echo ++$a*($a++ + --$b);
 * So, the result is 30.
 */
 
+$a='0';
+echo (bool)$a;
+/*
+* This will not show anything. Because when in string if 0 found
+* Then this will be false and show nothing.
+*/
 ?>
