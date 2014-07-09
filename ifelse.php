@@ -1,5 +1,5 @@
 <?php
-$marks=63;
+$marks=43;
 if($marks>=80&&$marks<=100){
 	$grade= "A+";
 	echo "Grade= ".$grade;
