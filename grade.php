@@ -1,5 +1,6 @@
 <?php
 	function getGrade($marks){
+		$grade='';
 		if($marks>=70&&$marks<=100){
 			$grade= "A+";
 		}
