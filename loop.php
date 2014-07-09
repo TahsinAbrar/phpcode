@@ -1,8 +1,9 @@
 <?php
-$end=10;
-$count=0;
-for($start=1; $start<=$end; $start++){
- $count=$count+$start;
-}
-echo $count;
+	$start=	1;
+	$end=10;
+	$sum=0;
+	for($start; $start<=$end; $start++){
+	 $sum=$sum+$start;
+	}
+	echo $sum;
 ?>
