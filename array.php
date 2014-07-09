@@ -20,4 +20,12 @@ echo "<pre>";
 print_r($fruits);
 echo "</pre>";
 
+//multi dimension array
+
+$arr2D=array($cars,$fruits);
+echo "<pre>";
+print_r($arr2D);
+echo "</pre>";
+
+echo $arr2D[1]['b'];
 ?>
