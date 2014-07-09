@@ -1,32 +1,32 @@
 <?php
-$marks=43;
-if($marks>=80&&$marks<=100){
+$marks=51;
+if($marks>79){
 	$grade= "A+";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
-elseif($marks>=70&&$marks<=79){
+elseif($marks>69){
 	$grade= "A";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
-elseif($marks>=60&&$marks<=69){
+elseif($marks>59){
 	$grade= "A-";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
-elseif($marks>=50&&$marks<=59){
+elseif($marks>49){
 	$grade= "B";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
-elseif($marks>=40&&$marks<=49){
+elseif($marks>39){
 	$grade= "C";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
-elseif($marks>=33&&$marks<=39){
+elseif($marks>32){
 	$grade= "D";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
-elseif($marks>=0&&$marks<=32){
+elseif($marks<32){
 	$grade= "F";
-	echo "Grade= ".$grade;
+	echo "<h1>Grade= ".$grade."</h1>";
 }
 else{
 	echo "Wrong input";
