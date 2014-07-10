@@ -1,10 +1,12 @@
 <?php
-//Declaring a class
-class User{
-    
-}
-// Instantiate an object from the class
-$user=new User();
+    //Declaring a class
+    class User{
+        var $name= "FTFL";
+        var $email = "";
+    }
+    // Instantiate an object from the class
+    $user=new User();
 
-var_dump($user); // Debug the variable
+    // var_dump($user); // Debug the variable
+    echo $user->name;
 ?>
