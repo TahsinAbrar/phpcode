@@ -5,7 +5,7 @@
  *
  * @author bcc
  */
-class Interest {
+class InterestCalculator {
     public $principalAmount;
     public $annualInterestRate;
     public $timePeriod;
