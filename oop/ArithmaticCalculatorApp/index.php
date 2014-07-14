@@ -22,13 +22,13 @@
             $second_no = $_GET["secondNumber"];
         }
         if (isset($_GET["add"])) {
-            echo 'Addition = ' . $calculator->addition($first_no, $second_no);
+            echo 'Addition = ' . $calculator->add($first_no, $second_no);
         } elseif (isset($_GET["subtract"])) {
-            echo 'Subtraction = ' . $calculator->subtraction($first_no, $second_no);
+            echo 'Subtraction = ' . $calculator->subtract($first_no, $second_no);
         } elseif (isset($_GET["multiply"])) {
-            echo 'Multiplication = ' . $calculator->multiplication($first_no, $second_no);
+            echo 'Multiplication = ' . $calculator->multiply($first_no, $second_no);
         } elseif (isset($_GET["divide"])) {
-            echo 'Division = ' . $calculator->division($first_no, $second_no);
+            echo 'Division = ' . $calculator->divide($first_no, $second_no);
         }
         ?>
     </body>
